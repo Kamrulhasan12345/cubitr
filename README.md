@@ -1,7 +1,11 @@
 # Cubitr
 *A Minimalist 3D Terminal Renderer, with nice movement functionalities*
 
-<video src="https://raw.githubusercontent.com/Kamrulhasan12345/cubitr/refs/heads/main/cubitr.mp4" controls>
+
+
+
+https://github.com/user-attachments/assets/05424092-1c3c-4257-8af5-c21d6534b29a
+
 
 ## Usage Instructions
 

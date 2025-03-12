@@ -9,7 +9,7 @@ https://github.com/user-attachments/assets/05424092-1c3c-4257-8af5-c21d6534b29a
 
 ## Usage Instructions
 
-- **Arrow keys**: Move up/down
+- **Arrow keys**: Move up/down/left/right
 - **'r'**: Toggle spinning
 - **'q'**: Quit
 

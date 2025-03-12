@@ -19,7 +19,12 @@ void usleep(__int64 usec)
 }
 #endif
 #include <string.h>
-#include <ncurses.h>
+#ifdef _WIN32
+#include <ncurses/ncurses.h>
+#else
+#include <ncurses.h> // Linux ncurses
+#endif
+
 
 #define PI 3.14159265359f
 
@@ -154,7 +159,7 @@ void cleanup() {
 
 // Render the frame
 void render() {
-    erase(); // More efficient than clear()
+    clear(); // More efficient than clear()
     
     memset(buffer, ' ', width * height);
     memset(zBuffer, 0, width * height * sizeof(float));

@@ -175,10 +175,11 @@ void render() {
         }
     }
 
-    for (int y = 0; y < height; y++) {
-        for (int x = 0; x < width; x++) {
-            int idx = x + y * width;
-            mvaddch(y, x, buffer[idx]);
+    for (int k = 0; k < width * height; k++) {
+        if (k % width) {
+            addch(buffer[k]);
+        } else {
+            addch('\n');
         }
     }
 
